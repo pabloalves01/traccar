@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="database.driver">org.postgresql.Driver</entry>
+    <entry key="database.url">jdbc:postgresql://localhost:5432/traccar</entry>
+    <entry key="database.user">traccar</entry>
+    <entry key="database.password">traccar</entry>
+    <entry key="web.address">127.0.0.1</entry>
+    <entry key="web.port">8082</entry>
+    <entry key="web.path">./traccar-web/simple</entry>
+    <entry key="logger.console">true</entry>
+    <entry key="logger.fullStackTraces">true</entry>
+    <!-- Filtra somente posições validas e evita lat: 0, long: 0-->
+    <entry key="filter.invalid">true</entry>
+    <entry key="filter.zero">true</entry>
+    <entry key="filter.distance">20</entry>
+</properties>
